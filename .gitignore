@@ -49,4 +49,5 @@
 
 
 # Ignore Tailwind configuration
-tailwind.config.js
+tailwind.config.js/public/sw.js*
+/public/sw.js*

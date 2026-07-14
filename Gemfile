@@ -4,14 +4,15 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-gem "decidim", "0.31.5"
+gem "decidim", "0.32.0"
+gem "decidim-dev", "0.32.0"
 # gem "decidim-ai", "0.31.5"
 # gem "decidim-collaborative_texts", "0.31.5"
-# gem "decidim-conferences", "0.31.5"
+gem "decidim-conferences", "0.32.0"
 # gem "decidim-demographics", "0.31.5"
 # gem "decidim-design", "0.31.5"
 # gem "decidim-elections", "0.31.5"
-# gem "decidim-initiatives", "0.31.5"
+gem "decidim-initiatives", "0.32.0"
 # gem "decidim-templates", "0.31.5"
 
 gem "bootsnap", "~> 1.3"
@@ -22,7 +23,7 @@ group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
   gem "brakeman", "~> 7.0"
-  gem "decidim-dev", "0.31.5"
+  #gem "decidim-dev", "0.32.0"
   gem "net-imap", "~> 0.5.0"
   gem "net-pop", "~> 0.1.1"
 end
@@ -38,3 +39,6 @@ group :production do
   gem 'delayed_job_active_record'
   gem "daemons"
 end
+
+#gem "decidim-conferences"
+#gem "decidim-initiatives"
